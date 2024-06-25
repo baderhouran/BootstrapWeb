@@ -1,0 +1,401 @@
+.section {
+    padding: 60px 0;
+  }
+  .list-unstyled {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .d-inline-block {
+    display: inline-block;
+  }
+  .row .col-sm-6 p {
+    font-size: larger;
+    margin: 10%;
+    margin-top: 0;
+  }
+.card .carousel-caption .col-sm-4 {
+    display: flex;
+    align-items: center;
+  }
+  .card .carousel-caption .col-sm-8 {
+    text-align: left;
+  }
+  
+  .card .carousel-caption {
+    right: 20px;
+    border: 2px solid #ebebeb;
+    color: black;
+    background-color: #fff;
+  }
+  
+  .carousel-control-prev {
+    left: 41.5%;
+    top: 80%;
+  }
+  @media (max-width:768px){
+    .carousel-control-prev {
+      left: 36.5%;
+      top: 80%;
+    }
+
+  }
+  
+  .carousel-control-next {
+    right: 41%;
+    top: 80%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    font-size: small;
+    background-color: #007bff;
+    padding: 20px;
+  }
+
+
+.carousel-caption h2 {
+    font-size: 20px;
+  }
+
+  .card .carousel-caption h3 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  .card .carousel-caption {
+    left: 0;
+    top: 0;
+  }
+  
+  .jumbotron .form-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jumbotron .form-row .form-group {
+    margin: 0;
+  }
+  
+  .jumbotron .form-row .form-group input {
+    width: 100%;
+  }
+  
+  .jumbotron .form-group.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .col-sm-6 form {
+    background-color: #fff;
+    margin: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .row .col-sm-6 img {
+    width: 100%;
+  }
+.jumbotron .jumbotron-fluid{
+    background-image: url("../images/ocean-facts.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 70vh;
+  }
+  
+  .form-container {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: left;
+  }
+  
+  .image-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .jumbotron {
+      height: 70vh;
+    }
+  }
+  
+  .carousel-caption {
+    padding: 30px;
+    height: max-content;
+  }
+  
+.card .carousel-item img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  .carousel-inner{
+    height: 275px;
+  }
+  @media (max-width: 768px) {
+    .carousel-inner {
+      height: 900px;
+    }
+    #myCarousel .carousel-item img {
+      object-fit: cover;
+    }
+    #alo .carousel-control-prev,
+    #alo .carousel-control-next{
+      margin: 0px;
+    }
+  }
+  @keyframes navAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .navbar {
+    animation: navAnimation 0.5s ease-out forwards;
+  }
+  
+  
+  @media (min-width: 768px) {
+    @keyframes Animatelist {
+      to {
+        transform: scale(1.2);
+      }
+     
+    }
+  }
+  
+  .nav-item:hover {
+    animation: Animatelist 0.3s forwards;
+  }
+  
+  .nav-item {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .section {
+    animation: sectionAnimation 1s ease-in-out forwards;
+  }
+  
+  @keyframes jumbotronAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .jumbotron .jumbotron-fluid{
+    animation: jumbotronAnimation 1s ease-out forwards;
+  }
+  
+  .jumbotron h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: white;
+  }
+  
+  .jumbotron p.lead {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .nav-item .nav-link {
+    text-decoration: none;
+    color: rgb(135, 135, 135);
+  }
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: left;
+    margin: 150px;
+  }
+  
+.card {
+    border: none;
+}
+.carousel-caption .testimonial {
+text-align: left;
+    color: black;
+    padding-bottom: 50px;
+  }
+.carousel-caption img {
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+    height: 110px;
+  }
+.carousel-caption h2 {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  
+.carousel-caption .job-title {
+    color: blue;
+    font-size: large;
+  }
+  
+.carousel-caption p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+.carousel-caption .signature {
+    font-style: italic;
+  }
+.jumbotron{
+    background-image: url("../images/bb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;   
+    margin: 0
+}
+.container-fluid .row .col-12{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.container-fluid .row{
+
+}
+.navbar-brand{
+  font-weight: bold;
+  color: black;
+}
+.active{
+  font-weight: bold;
+  color: black;
+  
+}
+
+#alo {
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#myCarousel .carousel-inner {
+  height: 700px;
+}
+
+#myCarousel .carousel-item {
+  height: 700px;
+}
+
+#myCarousel .carousel-item img {
+  height: 700px;
+}
+#alo .carousel-control-prev-icon,
+#alo .carousel-control-next-icon {
+    background-color: rgba(61, 61, 61, 0.5);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 500px;
+        }
+
+#alo .carousel-control-prev,
+#alo .carousel-control-next {
+   width: 1%;
+   margin: -700px;
+   
+        }
+    
+.animate-on-scroll {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+        }
+        
+.animate-on-scroll.animated {
+  opacity: 1;
+        }
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+          }
+    to {
+       opacity: 1;
+          }
+        }
+        
+@keyframes slideInUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+          }
+    to {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+@keyframes zoomIn {
+    from {
+      transform: scale(0);
+      opacity: 0;
+          }
+    to {
+      transform: scale(1);
+      opacity: 1;
+          }
+        }
+@keyframes slideleft {
+     from {
+       margin-left: 100%;
+          }
+      to {
+        margin-left: 0%;
+          }
+        }
+[data-animation="slideleft"].animated {
+      animation: 1s slideleft;
+        }
+        
+[data-animation="fadeIn"].animated {
+      animation: fadeIn 0.7s ease;
+        }
+        
+[data-animation="slideInUp"].animated {
+      animation: slideInUp 0.6s ease;
+        }
+        
+[data-animation="zoomIn"].animated {
+      animation: zoomIn 0.6s ease;
+        }
+.carousel-control-pev,
+.carousel-control-nex{
+  margin: 10px;
+}
+.carousel-control-pev.carousel-control-pev:hover,
+.carousel-control-nex:hover{
+  opacity: 0.7;
+}
